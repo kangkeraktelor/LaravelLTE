@@ -18,6 +18,10 @@
         <!-- AdminLTE Skins. Choose a skin from the css/skins
             folder instead of downloading all of them to reduce the load. -->
         <link rel="stylesheet" href="{{URL::asset('assets/dist/css/skins/_all-skins.min.css')}}">
+        <!-- DataTables Bootstrap -->
+        <link rel="stylesheet" href="{{URL::asset('assets/bower_components/datatables.net-bs/css/dataTables.bootstrap.css')}}">
+        <!-- DataTables Responsive -->
+        <link rel="stylesheet" href="{{URL::asset('assets/bower_components/datatables.net/css/responsive.dataTables.min.css')}}">
         <!-- Morris chart -->
         <link rel="stylesheet" href="{{URL::asset('assets/bower_components/morris.js/morris.css')}}">
         <!-- jvectormap -->
@@ -49,6 +53,11 @@
         </script>
         <!-- Bootstrap 3.3.7 -->
         <script src="{{URL::asset('assets/bower_components/bootstrap/dist/js/bootstrap.min.js')}}"></script>
+        <!-- DataTables Jquery & Bootstrap-->
+        <script src="{{URL::asset('assets/bower_components/datatables.net/js/jquery.dataTables.js')}}"></script>
+        <script src="{{URL::asset('assets/bower_components/datatables.net-bs/js/dataTables.bootstrap.js')}}"></script>
+        <!-- DataTables Responsive-->
+        <script src="{{URL::asset('assets/bower_components/datatables.net/js/dataTables.responsive.min.js')}}"></script>
         <!-- Morris.js charts -->
         <script src="{{URL::asset('assets/bower_components/raphael/raphael.min.js')}}"></script>
         <script src="{{URL::asset('assets/bower_components/morris.js/morris.min.js')}}"></script>
